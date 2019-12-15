@@ -7,16 +7,38 @@
 	
 </head>
 <body>
-
-<form class="form-group" method="POST" action="/controller6@POSTpersonas">	
-	
-@yield('content')
+<!--
+<form class="form-group" method="POST" action="controller6">	
 @csrf
 
-<div><button type="submit" class="btn-btn-primary">personas</button></div>
+<div class="form-inline">
+	
+<label>nombre:</label>
+<input type="text" name="nombretxt" class="form-control">
+
+<label>apellido:</label>
+<input type="text" name="apellidotxt" class="form-control">
+
+<label>grupo:</label>
+<input type="text" name="grupotxt" class="form-control">
+
+<label>cedula:</label>
+<input type="text" name="cedulatxt" class="form-control">
+
+
+</div>
+-->
+
+	
+@yield('content')
+
+<!--
+<div class="btn-group">
+	<button type="submit" class="btn-primary">personas</button>
+	</div>
 
 </form>
-
+-->
 
 
 </body>

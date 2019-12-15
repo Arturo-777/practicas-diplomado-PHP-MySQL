@@ -18,9 +18,8 @@ class controller6 extends Controller
 
         public function personas()
     {
-        return view('mod6.personas');
+        //return view('mod6.personas');
     }
-
 
     /**
      * Show the form for creating a new resource.
@@ -40,6 +39,12 @@ class controller6 extends Controller
      */
     public function store(Request $request)
     {
+        return $request->input('nombretxt');
+        return $request->input('apellidotxt');
+        return $request->input('grupotxt');
+        return $request->input('cedulatxt');
+        //return $request->all();
+        //$persona = new persona();
         //
     }
 

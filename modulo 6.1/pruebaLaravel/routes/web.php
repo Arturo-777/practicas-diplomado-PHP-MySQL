@@ -24,8 +24,8 @@ Route::get('/probando',function(){
 
 Route::get('/rutanueva','pruebaController@testeo');
 
-Route::get('index',function () {
+/*Route::get('index',function () {
     return view('mod6.index');
-});
+});*/
 
-/*Route::resource('index','controller6');
+Route::resource('index','controller6');
